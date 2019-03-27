@@ -1,1 +1,1 @@
-# my-high-school-and-academic-grades-plot
+# My High School and Academic Grades' Plot
