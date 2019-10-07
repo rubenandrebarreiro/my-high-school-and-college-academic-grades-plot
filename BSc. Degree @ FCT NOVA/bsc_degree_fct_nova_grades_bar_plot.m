@@ -20,4 +20,12 @@ bar(courses, grades, 'FaceColor', [0.12 0.73 0.52], 'BarWidth', 0.5)
 xlabel('Course')
 ylabel('Grade [Scale of 0-20]')
 ylim([0.0 20.0])
-title('My BSc. Degree Grades (2nd Year - 3rd Semester @ FCT NOVA)');
+title('My BSc. Degree Grades (2nd Year - 3rd Semester @ FCT NOVA)'); 
+%%
+courses = categorical({'Science, Technology and Society (3 ECTS)', 'Databases (9 ECTS)', 'Probability and Statistics E (6 ECTS)', 'Programming Languages and Environments (6 ECTS)', 'Theory of Computation (6 ECTS)'});
+grades = [20 16 16 16 16];
+bar(courses, grades, 'FaceColor', [0.12 0.73 0.52], 'BarWidth', 0.5)
+xlabel('Course')
+ylabel('Grade [Scale of 0-20]')
+ylim([0.0 20.0])
+title('My BSc. Degree Grades (2nd Year - 4rd Semester @ FCT NOVA)');
